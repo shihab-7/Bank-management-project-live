@@ -11,9 +11,9 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 import environ
+import dj_database_url
 env = environ.Env()
 environ.Env.read_env()
-import dj_database_url
 ...
 # Your secret key
 SECRET_KEY = env("SECRET_KEY")
