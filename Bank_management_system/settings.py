@@ -29,9 +29,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-# SECRET_KEY = 'django-insecure-&o&!8%h0$t6#thx-+ob#1i!_q(*b3lwarj+tqbzvfamz6x&_a=' #eita .env er modhhei asa eita remove kore dite hoy
-# prottek project er jonnoi akta kore unique secrect key thake
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -99,19 +96,6 @@ WSGI_APPLICATION = 'Bank_management_system.wsgi.application'
 #         'ENGINE': 'django.db.backends.sqlite3',
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
-# }
-
-# akhon postgresql database user korbo sqlite database use na kore
-# eita git a push korle data leak hoye jabe .
-# DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.postgresql',
-#        'NAME': 'mamar_bank',
-#        'USER': 'postgres',
-#        'PASSWORD': '12345',
-#        'HOST': 'localhost',
-#        'PORT': '5432',
-#    }
 # }
 
 # # eita use korbo git a push korar somoy
